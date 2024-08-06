@@ -2,13 +2,13 @@
     <!-- Brand Logo -->
     <div class="logo-box">
         <!-- Brand Logo Light -->
-        <a class='logo-light' href='index.html'>
+        <a class='logo-light' href='index.php'>
             <img src="assets/images/logo-light.png" alt="logo" class="logo-lg" height="28">
             <img src="assets/images/logo-sm.png" alt="small logo" class="logo-sm" height="28">
         </a>
 
         <!-- Brand Logo Dark -->
-        <a class='logo-dark' href='index.html'>
+        <a class='logo-dark' href='index.php'>
             <img src="assets/images/logo-dark.png" alt="dark logo" class="logo-lg" height="28">
             <img src="assets/images/logo-sm.png" alt="small logo" class="logo-sm" height="28">
         </a>
@@ -21,7 +21,7 @@
             <li class="menu-title">Menu</li>
 
             <li class="menu-item">
-                <a class='menu-link waves-effect waves-light' href='index.html'>
+                <a class='menu-link waves-effect waves-light' href='index.php'>
                     <span class="menu-icon"><i class="bx bx-home-smile"></i></span>
                     <span class="menu-text"> Dashboards </span>
                     <span class="badge bg-primary rounded ms-auto">01</span>
@@ -31,11 +31,18 @@
             <li class="menu-title">Custom</li>
 
             <li class="menu-item">
+                <a class='menu-link waves-effect waves-light' href='about.php'>
+                    <span class="menu-icon"><i class="mdi mdi-account-edit-outline"></i></span>
+                    <span class="menu-text"> About Us </span>
+                </a>
+            </li>
+
+            <!-- <li class="menu-item">
                 <a class='menu-link waves-effect waves-light' href='apps-calendar.html'>
                     <span class="menu-icon"><i class="bx bx-calendar"></i></span>
                     <span class="menu-text"> Calendar </span>
                 </a>
-            </li>
+            </li> -->
 
             <li class="menu-item">
                 <a href="#menuExpages" data-bs-toggle="collapse" class="menu-link waves-effect waves-light">
