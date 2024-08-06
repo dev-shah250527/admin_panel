@@ -1,9 +1,6 @@
 <!-- App js -->
 <script src="assets/js/vendor.min.js"></script>
 <script src="assets/js/app.js"></script>
-<!-- App js -->
-<script src="assets/js/vendor.min.js"></script>
-<script src="assets/js/app.js"></script>
 <!-- Knob charts js -->
 <script src="assets/libs/jquery-knob/jquery.knob.min.js"></script>
 
@@ -23,11 +20,14 @@
 <!-- Plugins js -->
 <script src="assets/libs/quill/quill.min.js"></script>
 <script src="assets/libs/quill/quill.min.js"></script>
+<script src="assets/libs/moment/min/moment.min.js"></script>
+<script src="assets/libs/fullcalendar/main.min.js"></script>
+
+<!-- Calendar js -->
+<script src="assets/js/pages/calendar.js"></script>
 
 <!-- Demo js-->
-<script src="assets/js/pages/form-quilljs.js"></script> 
-<!-- <script src="assets/js/pages/form-quilljs.js"></script>  -->
-
+<script src="assets/js/pages/form-quilljs.js"></script>
 
 <script>
     window.gtranslateSettings = {
