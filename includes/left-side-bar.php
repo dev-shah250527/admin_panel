@@ -132,6 +132,13 @@
                 </div>
             </li>
 
+            <li class="menu-item">
+                <a class='menu-link waves-effect waves-light' href='contact.php'>
+                    <span class="menu-icon"><i class="mdi mdi-account-edit-outline"></i></span>
+                    <span class="menu-text"> Contact Form </span>
+                </a>
+            </li>
+
 
 
             <li class="menu-item">
