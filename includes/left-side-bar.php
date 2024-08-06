@@ -110,6 +110,28 @@
                 </div>
             </li>
 
+            <li class="menu-item">
+                <a href="#testimonial" data-bs-toggle="collapse" class="menu-link waves-effect waves-light">
+                    <span class="menu-icon"><i class="bx bx-file"></i></span>
+                    <span class="menu-text"> Testimonial </span>
+                    <span class="menu-arrow"></span>
+                </a>
+                <div class="collapse" id="testimonial">
+                    <ul class="sub-menu">
+                        <li class="menu-item">
+                            <a class='menu-link' href='testimonial-manage.php'>
+                                <span class="menu-text">Manage Testimonial</span>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a class='menu-link' href='testimonial-add.php'>
+                                <span class="menu-text">Add Testimonial</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+
 
 
             <li class="menu-item">
