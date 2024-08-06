@@ -6,7 +6,7 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 
 <head>
-    <title>About Us</title>
+    <title>Add Project</title>
     <?php include "includes/header-script.php" ?>
 
 </head>
@@ -36,13 +36,13 @@
                     <div class="py-3 py-lg-4">
                         <div class="row">
                             <div class="col-lg-6">
-                                <h4 class="page-title mb-0">About us</h4>
+                                <h4 class="page-title mb-0">Add Project</h4>
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-none d-lg-block">
                                     <ol class="breadcrumb m-0 float-end">
                                         <li class="breadcrumb-item"><a href="index.php">Dashboard</a></li>
-                                        <li class="breadcrumb-item active">About us</li>
+                                        <li class="breadcrumb-item active">Add Project</li>
                                     </ol>
                                 </div>
                             </div>
@@ -55,109 +55,42 @@
                             <div class="card">
                                 <div class="card-body">
                                     <form class="needs-validation" novalidate>
-                                        <div class="mb-3 row">
-                                            <label class="col-md-2 col-form-label" for="simpleinput">Title</label>
-                                            <div class="col-md-10">
-                                                <input type="text" id="title" class="form-control" value="" placeholder="Title">
-                                            </div>
-                                            <div class="valid-feedback">
-                                                Looks good!
-                                            </div>
-                                        </div>
-                                        <div class="mb-3 row">
-                                            <label class="col-md-2 col-form-label" for="simpleinput">Sub Title</label>
-                                            <div class="col-md-10">
-                                                <input type="text" id="title" class="form-control" value="" placeholder="Sub Title">
-                                            </div>
-                                            <div class="valid-feedback">
-                                                Looks good!
-                                            </div>
-                                        </div>
-                                        <div class="mb-3 row">
-                                            <label class="col-md-2 col-form-label" for="simpleinput">Description</label>
-                                            <div class="col-md-10">
-                                                <div class="card">
-                                                    <div class="card-body">
-                                                        <!-- <h4 class="header-title">Snow Editor</h4>
-                                                        <p class="sub-header">Snow is a clean, flat toolbar theme.</p> -->
-
-                                                        <div id="snow-editor" style="height: 300px;">
-                                                            <!-- <h3><span class="ql-size-large">Hello World!</span></h3>
-                                                            <p><br></p>
-                                                            <h3>This is an simple editable area.</h3>
-                                                            <p><br></p>
-                                                            <ul>
-                                                                <li>
-                                                                    Select a text to reveal the toolbar.
-                                                                </li>
-                                                                <li>
-                                                                    Edit rich document on-the-fly, so elastic!
-                                                                </li>
-                                                            </ul>   
-                                                            <p><br></p>
-                                                            <p>
-                                                                End of simple area
-                                                            </p> -->
-                                                        </div> <!-- end Snow-editor-->
-                                                    </div> <!-- end card-body-->
-                                                </div> <!-- end card-->
-                                            </div><!-- end col -->
-                                            <div class="valid-feedback">
-                                                Looks good!
-                                            </div>
-                                        </div>
-
-                                        <div class="mb-3 row">
-                                            <label class="col-md-2 col-form-label" for="simpleinput">Description 2 </label>
-                                            <div class="col-md-10">
-                                                <div class="card">
-                                                    <div class="card-body">
-
-                                                        <div id="bubble-editor" style="height: 300px;">
-                                                            <!-- <h3><span class="ql-size-large">Hello World!</span></h3>
-                                                            <p><br></p>
-                                                            <h3>This is an simple editable area.</h3>
-                                                            <p><br></p>
-                                                            <ul>
-                                                                <li>
-                                                                    Select a text to reveal the toolbar.
-                                                                </li>
-                                                                <li>
-                                                                    Edit rich document on-the-fly, so elastic!
-                                                                </li>
-                                                            </ul>
-                                                            <p><br></p>
-                                                            <p>
-                                                                End of simple area
-                                                            </p> -->
-                                                        </div> <!-- end Snow-editor-->
-                                                    </div> <!-- end card-body-->
-                                                </div> <!-- end card-->
-                                            </div><!-- end col -->
-                                            <div class="valid-feedback">
-                                                Looks good!
-                                            </div>
-                                        </div>
                                         <div class="row">
+                                            <div class="mb-3 col-md-6 row">
+                                                <label class="col-md-2 col-form-label" for="simpleinput">Title</label>
+                                                <div class="col-md-10">
+                                                    <input type="text" id="title" class="form-control" value="" placeholder="Title">
+                                                </div>
+                                                <div class="valid-feedback">
+                                                    Looks good!
+                                                </div>
+                                            </div>
+                                            <div class="mb-3 col-md-6 row">
+                                                <label class="col-md-2 col-form-label" for="simpleinput">Sub Title</label>
+                                                <div class="col-md-10">
+                                                    <input type="text" id="title" class="form-control" value="" placeholder="Sub Title">
+                                                </div>
+                                                <div class="valid-feedback">
+                                                    Looks good!
+                                                </div>
+                                            </div>
                                             <div class="mb-3 col-md-6 row">
                                                 <label class="col-md-2 col-form-label" for="example-fileinput">Image</label>
                                                 <div class="col-md-10">
                                                     <input type="file" class="form-control" id="example-fileinput">
                                                 </div>
+
                                             </div>
-                                            <div class="col-lg-6">
-                                                <div class="mb-3 row">
-                                                    <label class="col-md-2 col-form-label">Select</label> <br/>
-                                                    <div class="col-md-10">
-                                                        <select id="selectize-select">
-                                                            <option data-display="Select">Active</option>
-                                                            <option value="1">Deactive</option>
-                                                        </select>
-                                                    </div>
+                                            <div class="col-md-6 mb-3 row">
+                                                <label class="col-md-2 col-form-label">Select</label> <br />
+                                                <div class="col-md-10">
+                                                    <select id="selectize-select">
+                                                        <option data-display="Select">Active</option>
+                                                        <option value="1">Deactive</option>
+                                                    </select>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <!-- <div class="mb-3">
+                                            <!-- <div class="mb-3">
                                             <label for="validationCustom02" class="form-label">Last name</label>
                                             <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="" required>
                                             <div class="valid-feedback">
@@ -206,6 +139,7 @@
                                                 </div>
                                             </div>
                                         </div> -->
+                                        </div>
                                         <button class="btn btn-primary" type="submit">Submit form</button>
                                     </form>
 

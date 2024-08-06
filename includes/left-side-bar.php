@@ -45,26 +45,50 @@
             </li>
 
             <li class="menu-item">
-                <a href="#menuExpages" data-bs-toggle="collapse" class="menu-link waves-effect waves-light">
+                <a href="#gallery" data-bs-toggle="collapse" class="menu-link waves-effect waves-light">
                     <span class="menu-icon"><i class="bx bx-file"></i></span>
                     <span class="menu-text"> Gallery </span>
                     <span class="menu-arrow"></span>
                 </a>
-                <div class="collapse" id="menuExpages">
+                <div class="collapse" id="gallery">
                     <ul class="sub-menu">
                         <li class="menu-item">
-                            <a class='menu-link' href='pages-starter.html'>
-                                <span class="menu-text">Add Gallery</span>
+                            <a class='menu-link' href='gallery-manage.php'>
+                                <span class="menu-text">Manage Gallery</span>
                             </a>
                         </li>
                         <li class="menu-item">
-                            <a class='menu-link' href='pages-invoice.html'>
-                                <span class="menu-text">Manage Gallery</span>
+                            <a class='menu-link' href='gallery-add.php'>
+                                <span class="menu-text">Add Gallery</span>
                             </a>
                         </li>
                     </ul>
                 </div>
             </li>
+
+            <li class="menu-item">
+                <a href="#project" data-bs-toggle="collapse" class="menu-link waves-effect waves-light">
+                    <span class="menu-icon"><i class="bx bx-file"></i></span>
+                    <span class="menu-text"> Project </span>
+                    <span class="menu-arrow"></span>
+                </a>
+                <div class="collapse" id="project">
+                    <ul class="sub-menu">
+                        <li class="menu-item">
+                            <a class='menu-link' href='project-manage.php'>
+                                <span class="menu-text">Manage Project</span>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a class='menu-link' href='project-add.php'>
+                                <span class="menu-text">Add Project</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+
+
 
             <li class="menu-item">
                 <a href="#menuLayouts" data-bs-toggle="collapse" class="menu-link waves-effect waves-light">

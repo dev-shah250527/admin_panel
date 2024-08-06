@@ -19,15 +19,27 @@
 
 <!-- Plugins js -->
 <script src="assets/libs/quill/quill.min.js"></script>
-<script src="assets/libs/quill/quill.min.js"></script>
 <script src="assets/libs/moment/min/moment.min.js"></script>
 <script src="assets/libs/fullcalendar/main.min.js"></script>
+<script src="assets/libs/selectize/js/standalone/selectize.min.js"></script>
+<script src="assets/libs/mohithg-switchery/switchery.min.js"></script>
+<script src="assets/libs/multiselect/js/jquery.multi-select.js"></script>
+<script src="assets/libs/jquery.quicksearch/jquery.quicksearch.min.html"></script>
+<script src="assets/libs/select2/js/select2.min.js"></script>
+<script src="assets/libs/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js"></script>
+<script src="assets/libs/bootstrap-maxlength/bootstrap-maxlength.min.js"></script>
+
 
 <!-- Calendar js -->
 <script src="assets/js/pages/calendar.js"></script>
 
 <!-- Demo js-->
 <script src="assets/js/pages/form-quilljs.js"></script>
+<script src="assets/js/pages/form-advanced.js"></script>
+
+<!-- Plugins Js -->
+
+<!-- Demo js -->
 
 <script>
     window.gtranslateSettings = {

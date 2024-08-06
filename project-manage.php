@@ -29,56 +29,59 @@
 
                 <!-- Start Content-->
                 <div class="container-fluid">
+
                     <!-- start page title -->
                     <div class="py-3 py-lg-4">
                         <div class="row">
                             <div class="col-lg-6">
-                                <h4 class="page-title mb-0">Counter</h4>
+                                <h4 class="page-title mb-0">Manage Project</h4>
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-none d-lg-block">
                                     <ol class="breadcrumb m-0 float-end">
                                         <li class="breadcrumb-item"><a href="index.php">Dashboard</a></li>
-                                        <li class="breadcrumb-item active">Counter</li>
+                                        <li class="breadcrumb-item active">Manage Project</li>
                                     </ol>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <!-- end page title -->
+
                     <!-- start page title -->
                     <div class="py-3 py-lg-4">
                         <div class="row">
                             <div class="col-12">
                                 <div class="card">
                                     <div class="card-body">
-                                        <h1>Counter</h1>
-                                        <form>
-                                            <div class="row">
-                                                <div class="mb-2 col-md-6">
-                                                    <label for="inputEmail4" class="form-label">Counter 1 </label>
-                                                    <input type="text" class="form-control" id="inputEmail4">
-                                                </div>
-
-                                                <div class="mb-2 col-md-6">
-                                                    <label for="inputPassword4" class="form-label">Counter 2</label>
-                                                    <input type="text" class="form-control" id="inputPassword4">
-                                                </div>
-                                                <div class="mb-2 col-md-6">
-                                                    <label for="inputEmail4" class="form-label">Counter 3 </label>
-                                                    <input type="text" class="form-control" id="inputEmail4">
-                                                </div>
-
-                                                <div class="mb-2 col-md-6">
-                                                    <label for="inputPassword4" class="form-label">Counter 4</label>
-                                                    <input type="text" class="form-control" id="inputPassword4">
-                                                </div>
-                                            </div>
-                                            <button type="submit" class="mt-3 btn btn-primary">Submit</button>
-                                        </form>
+                                        <div class="table-responsive">
+                                            <table class="table table-striped mb-0">
+                                                <thead>
+                                                    <tr>
+                                                        <th>#</th>
+                                                        <th>Select</th>
+                                                        <th>Title</th>
+                                                        <th>Images</th>
+                                                        <th>Description</th>
+                                                        <th>Status</th>
+                                                        <th>Edit</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">1</th>
+                                                        <td><input type="checkbox" class="form-check-input"></td>
+                                                        <td>Mark</td>
+                                                        <td>Mark</td>
+                                                        <td>Otto</td>
+                                                        <td><input type="checkbox" checked data-plugin="switchery" data-color="#039cfd"/></td>
+                                                        <td><i style="font-size: 25px;" class="mdi mdi-square-edit-outline"></i></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div> <!-- end table-responsive-->
                                     </div>
-                                </div>
-                                <!-- end col -->
+                                </div> <!-- end card -->
                             </div>
                         </div>
                     </div>
