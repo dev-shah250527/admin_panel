@@ -88,6 +88,28 @@
                 </div>
             </li>
 
+            <li class="menu-item">
+                <a href="#slider" data-bs-toggle="collapse" class="menu-link waves-effect waves-light">
+                    <span class="menu-icon"><i class="bx bx-file"></i></span>
+                    <span class="menu-text"> Slider </span>
+                    <span class="menu-arrow"></span>
+                </a>
+                <div class="collapse" id="slider">
+                    <ul class="sub-menu">
+                        <li class="menu-item">
+                            <a class='menu-link' href='slider-manage.php'>
+                                <span class="menu-text">Manage Slider</span>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a class='menu-link' href='slider-add.php'>
+                                <span class="menu-text">Add Slider</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+
 
 
             <li class="menu-item">
