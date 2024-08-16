@@ -64,17 +64,19 @@
                                                     <label for="inputPassword4" class="form-label">Counter 2</label>
                                                     <input type="text" class="form-control" id="inputPassword4">
                                                 </div>
-                                                <div class="mb-2 col-md-6">
+                                                <div class="mb-3 col-md-6">
                                                     <label for="inputEmail4" class="form-label">Counter 3 </label>
                                                     <input type="text" class="form-control" id="inputEmail4">
                                                 </div>
 
-                                                <div class="mb-2 col-md-6">
+                                                <div class="mb-3 col-md-6">
                                                     <label for="inputPassword4" class="form-label">Counter 4</label>
                                                     <input type="text" class="form-control" id="inputPassword4">
                                                 </div>
                                             </div>
-                                            <button type="submit" class="mt-3 btn btn-primary">Submit</button>
+                                            <div class="text-center">
+                                                <button class="btn btn-primary text-center" type="submit">Update</button>
+                                            </div>
                                         </form>
                                     </div>
                                 </div>

@@ -47,6 +47,12 @@
                         </div>
                     </div>
                     <!-- end page title -->
+                    <div class="button-list">
+                        <!-- Sign Up modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#signup-modal">Delete</button>
+                        <!-- Log In modal -->
+                        <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#login-modal"><a href="gallery-add.php" style="color: white;">+ Add New</a></button>
+                    </div>
 
                     <!-- start page title -->
                     <div class="py-3 py-lg-4">
@@ -55,7 +61,7 @@
                                 <div class="card">
                                     <div class="card-body">
                                         <div class="table-responsive">
-                                            <table class="table table-striped mb-0">
+                                            <table id="datatable-buttons" class="table table-striped mb-0">
                                                 <thead>
                                                     <tr>
                                                         <th>#</th>
